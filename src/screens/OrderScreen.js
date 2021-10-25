@@ -53,7 +53,7 @@ const OrderScreen = ({ history, match }) => {
 
     const addPaypalScript = async () => {
       const { data: clientId } = await axios.get(
-        "http://localhost:5000/api/config/paypal"
+        "https://zaberiapp.herokuapp.com/api/config/paypal"
       );
       const script = document.createElement("script");
       console.log(clientId);
