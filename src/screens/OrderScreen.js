@@ -95,6 +95,10 @@ const OrderScreen = ({ history, match }) => {
   ) : (
     <>
       <h1>Order {order._id}</h1>
+      <h5>
+        paypal : sb-peo8478548874@personal.example.com <br />
+        pasword : 9Z3$b]Kb
+      </h5>
       <Row>
         <Col md={8}>
           <ListGroup variant="flush">
